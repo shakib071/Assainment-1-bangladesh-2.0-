@@ -122,7 +122,7 @@ nav ul li {
 #pilers{
     width: 1280px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .piller {
@@ -178,4 +178,125 @@ nav ul li {
 }
 
 
+/* visions section styles  */
 
+#vision{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.vision-sec-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    text-align: left;
+}
+
+.vision-sec-des{
+    text-align: left;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.visions1{
+    width: 410px;
+    height: 270px;
+    padding: 32px ;
+    background-color:rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.visions2{
+    width: 410px;
+    height: 270px;
+    padding: 32px ;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+.visions3{
+    width: 410px;
+    height: 270px;
+    padding: 32px ;
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+}
+
+.vision-img{
+    height: 64px;
+    width: 64px;
+}
+
+.vision-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left;
+}
+
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: left;
+}
+
+.vision-btn1{
+    font-size: 16px;
+    padding: 11px 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+    
+}
+
+.vision-btn1:hover {
+    cursor:pointer;
+    background-color: rgb(226, 234, 236);
+    color: #212529;
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.10);
+}
+
+.vision-btn2{
+    font-size: 16px;
+    padding: 11px 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+    
+}
+
+.vision-btn2:hover{
+    cursor: pointer;
+    background-color: rgb(226, 234, 236);
+    color: #212529;
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.10);
+}
+
+.vision-btn3{
+    font-size: 16px;
+    padding: 11px 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+
+.vision-btn3:hover{
+    cursor: pointer;
+    background-color: rgb(226, 234, 236);
+    color: #212529;
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.10);
+}
