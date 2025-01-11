@@ -43,6 +43,8 @@ nav ul li {
     font-size: 18px;
     padding: 15px 30px;
     color: #006A50;
+    
+    border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
     transition: background-color 0.3s ease-in-out 0.2s;
 }
@@ -91,6 +93,7 @@ nav ul li {
     color: #0E0E0E;
     font-weight: bold;
     font-size: 56px;
+    margin-bottom: 24px;
 }
 
 .banner-details button{
@@ -347,6 +350,7 @@ nav ul li {
     font-weight: 600;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
 }
 
 .designation{
@@ -688,6 +692,7 @@ option{
     text-align: center;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    font-weight: 600;
 }
 
 
@@ -716,7 +721,11 @@ footer{
 }
 
 .social-media-images{
+    margin-top: 32px;
     height: 24px;
     width: 24px;
 }
 
+hr{
+    width: 70%;
+}
