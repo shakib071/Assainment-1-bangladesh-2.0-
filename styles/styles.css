@@ -423,3 +423,67 @@ option{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+/* news section styles  */
+
+#news{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.news-container{
+    display: flex;
+    align-items: center;
+    gap:42px;
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.news-head{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    text-align: left;
+}
+
+.news-head-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
+.stalite{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.aljazera{
+    width: 134px;
+    height: 40px;
+}
+
+.newsdescription{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-btn{
+    padding: 13px 26px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
