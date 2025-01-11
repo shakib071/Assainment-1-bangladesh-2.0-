@@ -184,6 +184,7 @@ nav ul li {
     width: 1280px;
     margin: 0 auto;
     margin-top: 80px;
+
 }
 
 .vision-sec-title{
@@ -299,4 +300,126 @@ nav ul li {
     color: #212529;
     box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
     transform: scale(1.10);
+}
+
+/* yunus section style  */
+
+#yunus{
+    background-image: url('../Images/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top 25px left 25px;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px 24px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+}
+
+.quote{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+}
+
+
+/* opinion styles   */
+
+#opinion {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.opinion-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.table{
+    padding: 32px;
+    
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+   
+    
+}
+
+
+table thead {
+    background-color: rgba(198, 228, 214, 1);
+    
+}
+
+
+table,tr,td {
+    border: 5px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+
+
+
+table thead tr td {
+    color: rgba(14, 14, 14, 1);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+thead td{
+    /* padding: 24px; */
+    padding: 0 24px;
+}
+
+tbody td{
+    /* padding: 36px 24px; */
+    padding: 0 24px;
+}
+td{
+    height: 92px;
+}
+
+.agree {
+    
+    width: 200px;
+    vertical-align: center;
+    text-align: center;
+    
+}
+
+select {
+    width: 152px;
+    height: 44px;
+    border-radius: 4px;
+    background-color:rgba(198, 228, 214, 1);
+    /* padding: 24px; */
+    /* align-self: center; */
+    /* margin-left: 25px; */
+}
+
+
+option{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.first-column {
+    width: 1010px;
+}
+
+.sp-container {
+    display: flex;
+    justify-content: space-between;
 }
