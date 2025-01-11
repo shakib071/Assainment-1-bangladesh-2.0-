@@ -269,6 +269,7 @@ nav ul li {
 .vision-btn2{
     font-size: 16px;
     padding: 11px 20px;
+    margin-top: 20px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
     background-color: rgba(9, 161, 92, 1);
@@ -537,6 +538,16 @@ option{
     font-family: bold;
     color: rgba(14, 14, 14, 0.8);
     border-radius: 16px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+
+.taka:hover {
+    cursor: pointer;
+    background-color:rgba(198, 228, 214, 1);
+    color: #212529;
+    font-weight: bold;
+    box-shadow: 5px 4px 10px rgba(18, 13, 176, 0.494);
+    transform: scale(1.10);
 }
 
 .input {
