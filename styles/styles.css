@@ -205,7 +205,10 @@ nav ul li {
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    
 }
+
+
 
 .visions1{
     width: 410px;
@@ -213,6 +216,12 @@ nav ul li {
     padding: 32px ;
     background-color:rgba(84, 144, 245, 0.2);
     border-radius: 16px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+
+.visions1:hover {
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.05);
 }
 .visions2{
     width: 410px;
@@ -220,6 +229,11 @@ nav ul li {
     padding: 32px ;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 16px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+.visions2:hover {
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.05);
 }
 .visions3{
     width: 410px;
@@ -227,6 +241,11 @@ nav ul li {
     padding: 32px ;
     background-color: rgba(247, 235, 207, 1);
     border-radius: 16px;
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+.visions3:hover {
+    box-shadow: 5px 4px 10px rgba(245, 5, 5, 0.3);
+    transform: scale(1.05);
 }
 
 .vision-img{
@@ -415,6 +434,7 @@ select {
 option{
     font-size: 16px;
     color: rgba(14, 14, 14, 1);
+    text-align: center;
 }
 
 .first-column {
