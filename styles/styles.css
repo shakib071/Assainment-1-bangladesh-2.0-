@@ -24,6 +24,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
+    padding: 0 10px;
     
 }
 
@@ -657,3 +658,34 @@ option{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+
+
+/* footer styles  */
+
+footer{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+   
+}
+
+.footer-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-bottom: 60px;
+}
+
+.social-media-images{
+    height: 24px;
+    width: 24px;
+}
+
